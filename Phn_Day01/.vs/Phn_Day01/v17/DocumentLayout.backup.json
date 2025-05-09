@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\NET\\Phn_Day01\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5DC4D47B-979C-446D-9179-2E497F2A11DD}|Phn_Day01\\Phn_Day01.csproj|c:\\net\\phn_day01\\phn_day01\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DC4D47B-979C-446D-9179-2E497F2A11DD}|Phn_Day01\\Phn_Day01.csproj|solutionrelative:phn_day01\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DC4D47B-979C-446D-9179-2E497F2A11DD}|Phn_Day01\\Phn_Day01.csproj|c:\\net\\phn_day01\\phn_day01\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DC4D47B-979C-446D-9179-2E497F2A11DD}|Phn_Day01\\Phn_Day01.csproj|solutionrelative:phn_day01\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DC4D47B-979C-446D-9179-2E497F2A11DD}|Phn_Day01\\Phn_Day01.csproj|c:\\net\\phn_day01\\phn_day01\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DC4D47B-979C-446D-9179-2E497F2A11DD}|Phn_Day01\\Phn_Day01.csproj|solutionrelative:phn_day01\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DC4D47B-979C-446D-9179-2E497F2A11DD}|Phn_Day01\\Phn_Day01.csproj|c:\\net\\phn_day01\\phn_day01\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DC4D47B-979C-446D-9179-2E497F2A11DD}|Phn_Day01\\Phn_Day01.csproj|solutionrelative:phn_day01\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DC4D47B-979C-446D-9179-2E497F2A11DD}|Phn_Day01\\Phn_Day01.csproj|c:\\net\\phn_day01\\phn_day01\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DC4D47B-979C-446D-9179-2E497F2A11DD}|Phn_Day01\\Phn_Day01.csproj|solutionrelative:phn_day01\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DC4D47B-979C-446D-9179-2E497F2A11DD}|Phn_Day01\\Phn_Day01.csproj|c:\\net\\phn_day01\\phn_day01\\phn_day01.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5DC4D47B-979C-446D-9179-2E497F2A11DD}|Phn_Day01\\Phn_Day01.csproj|solutionrelative:phn_day01\\phn_day01.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\NET\\Phn_Day01\\Phn_Day01\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Phn_Day01\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\NET\\Phn_Day01\\Phn_Day01\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Phn_Day01\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T18:13:57.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Phn_Day01",
+              "DocumentMoniker": "C:\\NET\\Phn_Day01\\Phn_Day01\\Phn_Day01.csproj",
+              "RelativeDocumentMoniker": "Phn_Day01\\Phn_Day01.csproj",
+              "ToolTip": "C:\\NET\\Phn_Day01\\Phn_Day01\\Phn_Day01.csproj",
+              "RelativeToolTip": "Phn_Day01\\Phn_Day01.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-09T18:04:59.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\NET\\Phn_Day01\\Phn_Day01\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Phn_Day01\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\NET\\Phn_Day01\\Phn_Day01\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Phn_Day01\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T17:53:49.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\NET\\Phn_Day01\\Phn_Day01\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Phn_Day01\\Models\\Product.cs",
+              "ToolTip": "C:\\NET\\Phn_Day01\\Phn_Day01\\Models\\Product.cs",
+              "RelativeToolTip": "Phn_Day01\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T17:52:43.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\NET\\Phn_Day01\\Phn_Day01\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Phn_Day01\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\NET\\Phn_Day01\\Phn_Day01\\Views\\Shared\\_Layout.cshtml*",
+              "RelativeToolTip": "Phn_Day01\\Views\\Shared\\_Layout.cshtml*",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-09T17:35:47.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\NET\\Phn_Day01\\Phn_Day01\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "Phn_Day01\\Views\\Product\\Index.cshtml",
+              "ToolTip": "C:\\NET\\Phn_Day01\\Phn_Day01\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "Phn_Day01\\Views\\Product\\Index.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-09T17:33:05.853Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
