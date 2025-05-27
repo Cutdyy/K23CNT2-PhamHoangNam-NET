@@ -1,0 +1,46 @@
+﻿@model PhnLab06.Models.PhnEmployee
+@{
+    ViewData["Title"] = "Sửa nhân viên";
+}
+<h2>@ViewData["Title"]</h2>
+<form asp-action="PhnEdit" method="post">
+    <input type="hidden" asp-for="PhnId" />
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <div class="form-group">
+        <label>Tên</label>
+        <input asp-for="PhnName" class="form-control" />
+        <span asp-validation-for="PhnName" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label>Ngày sinh</label>
+        <input asp-for="PhnBirthDay" class="form-control" type="date" />
+        <span asp-validation-for="PhnBirthDay" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label>Email</label>
+        <input asp-for="PhnEmail" class="form-control" />
+        <span asp-validation-for="PhnEmail" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label>Số điện thoại</label>
+        <input asp-for="PhnPhone" class="form-control" />
+        <span asp-validation-for="PhnPhone" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label>Lương</label>
+        <input asp-for="PhnSalary" class="form-control" type="number" />
+        <span asp-validation-for="PhnSalary" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label>Trạng thái</label>
+        <input asp-for="PhnStatus" class="form-control" />
+        <span asp-validation-for="PhnStatus" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-success">Lưu</button>
+    <a asp-action="PhnIndex" class="btn btn-secondary">Quay lại</a>
+</form>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

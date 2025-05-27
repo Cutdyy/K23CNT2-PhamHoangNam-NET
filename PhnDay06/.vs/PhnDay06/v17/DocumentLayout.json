@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\NET\\K23CNT2-PhamHoangNam-NET\\PhnDay06\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E461C99C-78BE-4803-B7B4-5148AC0AF9F8}|PhnDay06\\PhnDay06.csproj|c:\\net\\k23cnt2-phamhoangnam-net\\phnday06\\phnday06\\views\\phnemployee\\phnindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E461C99C-78BE-4803-B7B4-5148AC0AF9F8}|PhnDay06\\PhnDay06.csproj|solutionrelative:phnday06\\views\\phnemployee\\phnindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E461C99C-78BE-4803-B7B4-5148AC0AF9F8}|PhnDay06\\PhnDay06.csproj|c:\\net\\k23cnt2-phamhoangnam-net\\phnday06\\phnday06\\views\\phnhome\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E461C99C-78BE-4803-B7B4-5148AC0AF9F8}|PhnDay06\\PhnDay06.csproj|solutionrelative:phnday06\\views\\phnhome\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E461C99C-78BE-4803-B7B4-5148AC0AF9F8}|PhnDay06\\PhnDay06.csproj|c:\\net\\k23cnt2-phamhoangnam-net\\phnday06\\phnday06\\controllers\\phnhomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E461C99C-78BE-4803-B7B4-5148AC0AF9F8}|PhnDay06\\PhnDay06.csproj|solutionrelative:phnday06\\controllers\\phnhomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E461C99C-78BE-4803-B7B4-5148AC0AF9F8}|PhnDay06\\PhnDay06.csproj|c:\\net\\k23cnt2-phamhoangnam-net\\phnday06\\phnday06\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E461C99C-78BE-4803-B7B4-5148AC0AF9F8}|PhnDay06\\PhnDay06.csproj|solutionrelative:phnday06\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E461C99C-78BE-4803-B7B4-5148AC0AF9F8}|PhnDay06\\PhnDay06.csproj|c:\\net\\k23cnt2-phamhoangnam-net\\phnday06\\phnday06\\models\\phnemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E461C99C-78BE-4803-B7B4-5148AC0AF9F8}|PhnDay06\\PhnDay06.csproj|solutionrelative:phnday06\\models\\phnemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E461C99C-78BE-4803-B7B4-5148AC0AF9F8}|PhnDay06\\PhnDay06.csproj|c:\\net\\k23cnt2-phamhoangnam-net\\phnday06\\phnday06\\controllers\\phnemployeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E461C99C-78BE-4803-B7B4-5148AC0AF9F8}|PhnDay06\\PhnDay06.csproj|solutionrelative:phnday06\\controllers\\phnemployeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E461C99C-78BE-4803-B7B4-5148AC0AF9F8}|PhnDay06\\PhnDay06.csproj|c:\\net\\k23cnt2-phamhoangnam-net\\phnday06\\phnday06\\views\\phnemployee\\phncreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E461C99C-78BE-4803-B7B4-5148AC0AF9F8}|PhnDay06\\PhnDay06.csproj|solutionrelative:phnday06\\views\\phnemployee\\phncreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E461C99C-78BE-4803-B7B4-5148AC0AF9F8}|PhnDay06\\PhnDay06.csproj|c:\\net\\k23cnt2-phamhoangnam-net\\phnday06\\phnday06\\views\\phnemployee\\phnedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E461C99C-78BE-4803-B7B4-5148AC0AF9F8}|PhnDay06\\PhnDay06.csproj|solutionrelative:phnday06\\views\\phnemployee\\phnedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\NET\\K23CNT2-PhamHoangNam-NET\\PhnDay06\\PhnDay06\\Views\\PhnHome\\Index.cshtml",
+              "RelativeDocumentMoniker": "PhnDay06\\Views\\PhnHome\\Index.cshtml",
+              "ToolTip": "C:\\NET\\K23CNT2-PhamHoangNam-NET\\PhnDay06\\PhnDay06\\Views\\PhnHome\\Index.cshtml",
+              "RelativeToolTip": "PhnDay06\\Views\\PhnHome\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABpAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-27T02:41:32.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\NET\\K23CNT2-PhamHoangNam-NET\\PhnDay06\\PhnDay06\\Program.cs",
+              "RelativeDocumentMoniker": "PhnDay06\\Program.cs",
+              "ToolTip": "C:\\NET\\K23CNT2-PhamHoangNam-NET\\PhnDay06\\PhnDay06\\Program.cs",
+              "RelativeToolTip": "PhnDay06\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T02:05:33.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PhnCreate.cshtml",
+              "DocumentMoniker": "C:\\NET\\K23CNT2-PhamHoangNam-NET\\PhnDay06\\PhnDay06\\Views\\PhnEmployee\\PhnCreate.cshtml",
+              "RelativeDocumentMoniker": "PhnDay06\\Views\\PhnEmployee\\PhnCreate.cshtml",
+              "ToolTip": "C:\\NET\\K23CNT2-PhamHoangNam-NET\\PhnDay06\\PhnDay06\\Views\\PhnEmployee\\PhnCreate.cshtml",
+              "RelativeToolTip": "PhnDay06\\Views\\PhnEmployee\\PhnCreate.cshtml",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAIwCwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-27T01:30:57.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PhnEmployeeController.cs",
+              "DocumentMoniker": "C:\\NET\\K23CNT2-PhamHoangNam-NET\\PhnDay06\\PhnDay06\\Controllers\\PhnEmployeeController.cs",
+              "RelativeDocumentMoniker": "PhnDay06\\Controllers\\PhnEmployeeController.cs",
+              "ToolTip": "C:\\NET\\K23CNT2-PhamHoangNam-NET\\PhnDay06\\PhnDay06\\Controllers\\PhnEmployeeController.cs",
+              "RelativeToolTip": "PhnDay06\\Controllers\\PhnEmployeeController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwFIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T01:26:25.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PhnHomeController.cs",
+              "DocumentMoniker": "C:\\NET\\K23CNT2-PhamHoangNam-NET\\PhnDay06\\PhnDay06\\Controllers\\PhnHomeController.cs",
+              "RelativeDocumentMoniker": "PhnDay06\\Controllers\\PhnHomeController.cs",
+              "ToolTip": "C:\\NET\\K23CNT2-PhamHoangNam-NET\\PhnDay06\\PhnDay06\\Controllers\\PhnHomeController.cs",
+              "RelativeToolTip": "PhnDay06\\Controllers\\PhnHomeController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T01:20:37.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PhnEmployee.cs",
+              "DocumentMoniker": "C:\\NET\\K23CNT2-PhamHoangNam-NET\\PhnDay06\\PhnDay06\\Models\\PhnEmployee.cs",
+              "RelativeDocumentMoniker": "PhnDay06\\Models\\PhnEmployee.cs",
+              "ToolTip": "C:\\NET\\K23CNT2-PhamHoangNam-NET\\PhnDay06\\PhnDay06\\Models\\PhnEmployee.cs",
+              "RelativeToolTip": "PhnDay06\\Models\\PhnEmployee.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T01:22:33.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PhnIndex.cshtml",
+              "DocumentMoniker": "C:\\NET\\K23CNT2-PhamHoangNam-NET\\PhnDay06\\PhnDay06\\Views\\PhnEmployee\\PhnIndex.cshtml",
+              "RelativeDocumentMoniker": "PhnDay06\\Views\\PhnEmployee\\PhnIndex.cshtml",
+              "ToolTip": "C:\\NET\\K23CNT2-PhamHoangNam-NET\\PhnDay06\\PhnDay06\\Views\\PhnEmployee\\PhnIndex.cshtml",
+              "RelativeToolTip": "PhnDay06\\Views\\PhnEmployee\\PhnIndex.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACwAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-27T01:30:15.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PhnEdit.cshtml",
+              "DocumentMoniker": "C:\\NET\\K23CNT2-PhamHoangNam-NET\\PhnDay06\\PhnDay06\\Views\\PhnEmployee\\PhnEdit.cshtml",
+              "RelativeDocumentMoniker": "PhnDay06\\Views\\PhnEmployee\\PhnEdit.cshtml",
+              "ToolTip": "C:\\NET\\K23CNT2-PhamHoangNam-NET\\PhnDay06\\PhnDay06\\Views\\PhnEmployee\\PhnEdit.cshtml",
+              "RelativeToolTip": "PhnDay06\\Views\\PhnEmployee\\PhnEdit.cshtml",
+              "ViewState": "AgIAABEAAAAAAAAAAAAIwC0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-27T01:31:44.705Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

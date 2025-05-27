@@ -1,0 +1,45 @@
+﻿@model List<PhnLab06.Models.PhnEmployee>
+@{
+    ViewData["Title"] = "Danh sách nhân viên";
+}
+<h2>@ViewData["Title"]</h2>
+<a asp-action="PhnCreate" class="btn btn-primary">Thêm nhân viên</a>
+<table class="table table-bordered mt-3">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Tên</th>
+            <th>Ngày sinh</th>
+            <th>Email</th>
+            <th>SĐT</th>
+            <th>Lương</th>
+            <th>Trạng thái</th>
+            <th>Thao tác</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var e in Model)
+        {
+            <tr>
+                <td>@e.PhnId</td>
+                <td>@e.PhnName</td>
+                <td>@e.PhnBirthDay.ToString("dd/MM/yyyy")</td>
+                <td>@e.PhnEmail</td>
+                <td>@e.PhnPhone</td>
+                <td>@e.PhnSalary.ToString("N0")</td>
+                <td>@e.PhnStatus</td>
+                <td>
+                    <a asp-action="PhnEdit" asp-route-id="@e.PhnId" class="btn btn-sm btn-warning">Sửa</a>
+                    <form asp-action="PhnDelete" asp-route-id="@e.PhnId" method="post" style="display:inline;">
+                        <button type="submit" class="btn btn-sm btn-danger" onclick="return confirm('Xóa nhân viên này?');">Xóa</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+@{
+    ViewData["Title"] = "Danh sách nhân viên";
+}
+<h2>@ViewData["Title"]</h2>
+<a asp-controller="PhnHome" asp-action="Index" class="btn btn-secondary">Quay về Trang chủ</a>
