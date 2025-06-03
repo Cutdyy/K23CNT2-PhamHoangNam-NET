@@ -1,0 +1,60 @@
+﻿@model PhnDay07.Models.PhnEmployee
+
+@{
+    ViewData["Title"] = "PhnDetails";
+}
+
+<h1>Thông tin nhân viên</h1>
+
+<div>
+    <h4>PhnEmployee</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.PhnId)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.PhnId)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.PhnName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.PhnName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.PhnBirthDay)
+        </dt>
+        <dd class="col-sm-10">
+            @Model.PhnBirthDay.ToString("dd/MM/yyyy")
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.PhnEmail)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.PhnEmail)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.PhnPhone)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.PhnPhone)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.PhnSalary)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.PhnSalary)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.PhnStatus)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.PhnStatus)
+        </dd>
+    </dl>
+</div>
+<div>
+    @Html.ActionLink("Edit", "PhnEdit", new { id = Model.PhnId }) |
+    <a asp-action="PhnIndex">Back to List</a>
+</div>

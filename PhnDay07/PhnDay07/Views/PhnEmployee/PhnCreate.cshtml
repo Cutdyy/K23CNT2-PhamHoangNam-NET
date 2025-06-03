@@ -1,0 +1,57 @@
+﻿@model PhnDay07.Models.PhnEmployee
+
+@{
+    ViewData["Title"] = "Thêm mới nhân viên";
+}
+
+<h1>Thêm mới nhân viên</h1>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="PhnCreate">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="PhnId" class="control-label"></label>
+                <input asp-for="PhnId" class="form-control" />
+                <span asp-validation-for="PhnId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PhnName" class="control-label"></label>
+                <input asp-for="PhnName" class="form-control" />
+                <span asp-validation-for="PhnName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PhnBirthDay" class="control-label"></label>
+                <input asp-for="PhnBirthDay" class="form-control" />
+                <span asp-validation-for="PhnBirthDay" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PhnEmail" class="control-label"></label>
+                <input asp-for="PhnEmail" class="form-control" />
+                <span asp-validation-for="PhnEmail" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PhnPhone" class="control-label"></label>
+                <input asp-for="PhnPhone" class="form-control" />
+                <span asp-validation-for="PhnPhone" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PhnSalary" class="control-label"></label>
+                <input asp-for="PhnSalary" class="form-control" />
+                <span asp-validation-for="PhnSalary" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="PhnStatus" /> @Html.DisplayNameFor(model => model.PhnStatus)
+                </label>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="PhnIndex">Back to List</a>
+</div>

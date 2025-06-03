@@ -1,0 +1,46 @@
+﻿@model IEnumerable<PhnDay07.Models.PhnEmployee>
+@{
+    ViewData["Title"] = "DANH SÁCH NHÂN VIÊN";
+    var dummy = new PhnDay07.Models.PhnEmployee(); // Dùng để gọi DisplayNameFor
+}
+
+<h1>DANH SÁCH NHÂN VIÊN</h1>
+
+<p>
+    <a asp-action="PhnCreate" class="btn btn-primary">Thêm mới</a>
+</p>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(m => dummy.PhnId)</th>
+            <th>@Html.DisplayNameFor(m => dummy.PhnName)</th>
+            <th>@Html.DisplayNameFor(m => dummy.PhnBirthDay)</th>
+            <th>@Html.DisplayNameFor(m => dummy.PhnEmail)</th>
+            <th>@Html.DisplayNameFor(m => dummy.PhnPhone)</th>
+            <th>@Html.DisplayNameFor(m => dummy.PhnSalary)</th>
+            <th>@Html.DisplayNameFor(m => dummy.PhnStatus)</th>
+            <th>Hành động</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.PhnId</td>
+                <td>@item.PhnName</td>
+                <td>@item.PhnBirthDay.ToString("dd/MM/yyyy")</td>
+                <td>@item.PhnEmail</td>
+                <td>@item.PhnPhone</td>
+                <td>@item.PhnSalary</td>
+                <td>@(item.PhnStatus ? "Đang làm" : "Nghỉ")</td>
+                <td>
+                    @Html.ActionLink("Sửa", "PhnEdit", new { id = item.PhnId }) |
+                    @Html.ActionLink("Chi tiết", "PhnDetails", new { id = item.PhnId }) |
+                    @Html.ActionLink("Xoá", "Delete", new { id = item.PhnId }, new { onclick = "return confirm('Bạn có chắc muốn xoá?');" })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
