@@ -1,0 +1,101 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\NET\\K23CNT2-PhamHoangNam-NET\\PhnDay02\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2CF92125-9735-45F3-A14D-3DC2884C241F}|PhnDay02\\PhnDay02.csproj|c:\\net\\k23cnt2-phamhoangnam-net\\phnday02\\phnday02\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2CF92125-9735-45F3-A14D-3DC2884C241F}|PhnDay02\\PhnDay02.csproj|solutionrelative:phnday02\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CF92125-9735-45F3-A14D-3DC2884C241F}|PhnDay02\\PhnDay02.csproj|c:\\net\\k23cnt2-phamhoangnam-net\\phnday02\\phnday02\\views\\account\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2CF92125-9735-45F3-A14D-3DC2884C241F}|PhnDay02\\PhnDay02.csproj|solutionrelative:phnday02\\views\\account\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CF92125-9735-45F3-A14D-3DC2884C241F}|PhnDay02\\PhnDay02.csproj|c:\\net\\k23cnt2-phamhoangnam-net\\phnday02\\phnday02\\views\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2CF92125-9735-45F3-A14D-3DC2884C241F}|PhnDay02\\PhnDay02.csproj|solutionrelative:phnday02\\views\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CF92125-9735-45F3-A14D-3DC2884C241F}|PhnDay02\\PhnDay02.csproj|c:\\net\\k23cnt2-phamhoangnam-net\\phnday02\\phnday02\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CF92125-9735-45F3-A14D-3DC2884C241F}|PhnDay02\\PhnDay02.csproj|solutionrelative:phnday02\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CF92125-9735-45F3-A14D-3DC2884C241F}|PhnDay02\\PhnDay02.csproj|c:\\net\\k23cnt2-phamhoangnam-net\\phnday02\\phnday02\\models\\accountviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CF92125-9735-45F3-A14D-3DC2884C241F}|PhnDay02\\PhnDay02.csproj|solutionrelative:phnday02\\models\\accountviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\NET\\K23CNT2-PhamHoangNam-NET\\PhnDay02\\PhnDay02\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "PhnDay02\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\NET\\K23CNT2-PhamHoangNam-NET\\PhnDay02\\PhnDay02\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "PhnDay02\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-26T21:22:45.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Profile.cshtml",
+              "DocumentMoniker": "C:\\NET\\K23CNT2-PhamHoangNam-NET\\PhnDay02\\PhnDay02\\Views\\Account\\Profile.cshtml",
+              "RelativeDocumentMoniker": "PhnDay02\\Views\\Account\\Profile.cshtml",
+              "ToolTip": "C:\\NET\\K23CNT2-PhamHoangNam-NET\\PhnDay02\\PhnDay02\\Views\\Account\\Profile.cshtml",
+              "RelativeToolTip": "PhnDay02\\Views\\Account\\Profile.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-26T21:19:15.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AccountViewModel.cs",
+              "DocumentMoniker": "C:\\NET\\K23CNT2-PhamHoangNam-NET\\PhnDay02\\PhnDay02\\Models\\AccountViewModel.cs",
+              "RelativeDocumentMoniker": "PhnDay02\\Models\\AccountViewModel.cs",
+              "ToolTip": "C:\\NET\\K23CNT2-PhamHoangNam-NET\\PhnDay02\\PhnDay02\\Models\\AccountViewModel.cs",
+              "RelativeToolTip": "PhnDay02\\Models\\AccountViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T21:13:14.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\NET\\K23CNT2-PhamHoangNam-NET\\PhnDay02\\PhnDay02\\Views\\Account\\Index.cshtml",
+              "RelativeDocumentMoniker": "PhnDay02\\Views\\Account\\Index.cshtml",
+              "ToolTip": "C:\\NET\\K23CNT2-PhamHoangNam-NET\\PhnDay02\\PhnDay02\\Views\\Account\\Index.cshtml",
+              "RelativeToolTip": "PhnDay02\\Views\\Account\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-26T21:00:05.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\NET\\K23CNT2-PhamHoangNam-NET\\PhnDay02\\PhnDay02\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "PhnDay02\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\NET\\K23CNT2-PhamHoangNam-NET\\PhnDay02\\PhnDay02\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "PhnDay02\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T20:58:48.429Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
