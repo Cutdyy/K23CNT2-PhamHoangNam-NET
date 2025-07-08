@@ -1,0 +1,50 @@
+﻿@model IEnumerable<day11.Models.PhnEmployee>
+
+@{
+    ViewData["Title"] = "Danh sách nhân viên";
+}
+
+<h1 class="text-center my-4">Thông tin nhân viên</h1>
+
+<div class="mb-3 text-end">
+    <a asp-action="PhnCreate" class="btn btn-success">
+        <i class="bi bi-plus-lg"></i> Thêm mới
+    </a>
+</div>
+
+<table class="table table-bordered table-hover table-striped shadow-sm">
+    <thead class="table-primary text-center">
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.PhnEmpName)</th>
+            <th>@Html.DisplayNameFor(model => model.PhnEmpLevel)</th>
+            <th>@Html.DisplayNameFor(model => model.PhnEmpStartDate)</th>
+            <th>@Html.DisplayNameFor(model => model.PhnEmpStatus)</th>
+            <th>Hành động</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.PhnEmpName)</td>
+                <td>@Html.DisplayFor(modelItem => item.PhnEmpLevel)</td>
+                <td>@item.PhnEmpStartDate.ToString("dd/MM/yyyy")</td>
+                <td>
+                    @if (item.PhnEmpStatus)
+                    {
+                        <span class="badge bg-success">Đang hoạt động</span>
+                    }
+                    else
+                    {
+                        <span class="badge bg-secondary">Không hoạt động</span>
+                    }
+                </td>
+                <td class="text-center">
+                    <a asp-action="PhnEdit" asp-route-id="@item.PhnEmpId" class="btn btn-sm btn-warning me-1">Sửa</a>
+                    <a asp-action="PhnDetails" asp-route-id="@item.PhnEmpId" class="btn btn-sm btn-info me-1">Chi tiết</a>
+                    <a asp-action="PhnDelete" asp-route-id="@item.PhnEmpId" class="btn btn-sm btn-danger">Xóa</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

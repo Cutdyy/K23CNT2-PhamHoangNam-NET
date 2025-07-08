@@ -1,0 +1,45 @@
+﻿@model day11.Models.PhnEmployee
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>PhnDelete</h1>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>PhnEmployee</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.PhnEmpName)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.PhnEmpName)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.PhnEmpLevel)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.PhnEmpLevel)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.PhnEmpStartDate)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.PhnEmpStartDate)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.PhnEmpStatus)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.PhnEmpStatus)
+        </dd>
+    </dl>
+    
+    <form asp-action="PhnDelete">
+        <input type="hidden" asp-for="PhnEmpId" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-action="PhnIndex">Back to List</a>
+    </form>
+</div>
